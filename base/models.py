@@ -1,6 +1,3 @@
-from pyexpat import model
-from tkinter import CASCADE
-from turtle import title
 from django.db import models
 from django.contrib.auth.models import User
 
