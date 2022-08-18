@@ -83,12 +83,12 @@ WSGI_APPLICATION = 'todo_list.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'd30anctmgqnhmj',
         'USER': 'bjlgymdvehldxp',
-        'PASSWORD':'10da5483cd35c38150c72169d6697aadca583d2a5b7bae040f307f92de9a26c1'
-        'HOST': 'ec2-52-212-228-71.eu-west-1.compute.amazonaws.com',
-        'PORT': '5432'
+        'PASSWORD':'10da5483cd35c38150c72169d6697aadca583d2a5b7bae040f307f92de9a26c1',
+        'HOST':'ec2-52-212-228-71.eu-west-1.compute.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
@@ -136,6 +136,4 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
-django_heroku.settings(locals())
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
