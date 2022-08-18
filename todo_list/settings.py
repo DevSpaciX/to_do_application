@@ -84,7 +84,11 @@ WSGI_APPLICATION = 'todo_list.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': 'd30anctmgqnhmj',
+        'USER': 'bjlgymdvehldxp',
+        'PASSWORD':'10da5483cd35c38150c72169d6697aadca583d2a5b7bae040f307f92de9a26c1'
+        'HOST': 'ec2-52-212-228-71.eu-west-1.compute.amazonaws.com',
+        'PORT': '5432'
     }
 }
 
