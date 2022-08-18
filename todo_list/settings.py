@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-akla3z#2_kw_t*l!ht(x%bzt368ap25_)%lmgo6ww3uyjab118
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    '*'
+    'spacix.herokuapp.com'
 ]
 
 
