@@ -1,13 +1,10 @@
-from asyncio import tasks
-from multiprocessing import context
-from re import search
-from turtle import title
+
 from django.shortcuts import render , redirect
 from django.views.generic.list import ListView
 from django.views.generic.detail import DetailView
 from django.views.generic.edit import CreateView , UpdateView , DeleteView , FormView
 from . models import Task
-
+import tkinter as TK
 
 from django.contrib.auth.mixins import LoginRequiredMixin 
 from django.contrib.auth.views import LoginView
